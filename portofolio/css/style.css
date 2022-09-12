@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    font-family: 'Poppins', 'Comic Sans';
+    --main-color: #97d412;
+    --second-color: #44399c;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #dada94;
+}
+
+h1{
+    font-family:'fantasy';
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p{
+    font-family: serif;
+    font-size: 15px !important;
+    margin-bottom: 0;
+}
+
+a{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: rgb(16, 14, 14);
+}
+
+#a{
+    background-color:#c9ccb7;
+}
+
+.navbar{
+    background: transparent;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#home{
+    background: url(../asset/aamiin);
+    background-position: 0 - 250px;
+    background-size: normal;
+    height: 610px;
+    position: relative;
+    z-index: -1;
+}
+
+#home .row{
+    vertical-align: middle;
+    height: inherit;
+}
+
+.img-about{
+    width: 100%;
+    height: 100%;
+}
+#about{
+    background-color: #f9f9f7;
+
+}
+#pendidikan{
+    background-color: #e2e29c;
+}
+
+.card{
+    border-radius: 50px;
+}
+
+.number{
+    background-color: var(--main-color);
+    color: rgb(216, 243, 135);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#organisasi{
+    background: url(../asset/ig.jpeg);
+    height: 610px;
+    background-size: cover;
+    
+}
+#organisasi{
+    background-color: rgb(249, 203, 142);
+}
+
+.card{
+    border-radius: 40px;
+}
+
+.img-organization{
+    max-width: 400px;
+}
+
+.img-certification{
+    width: 100%;
+    background-size: cover;
+}
+
+.btn-primary{
+    color: rgb(14, 240, 236) !important;
+    margin-top: 30px;
+    border-radius: 0px !important;
+    width: 130px;
+    font-size: 13px;
+    background-color: var(--second-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover{
+    background-color: rgb(220, 182, 182) !important;
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+#contact{
+    background-color:bisque;
+}
+
+#contact a{
+    color: bisque !important;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#footer .copyrights{
+    margin-top: 20px;
+    color: rgb(242, 222, 96);
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+#footer .copyrights p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100px;
+}
